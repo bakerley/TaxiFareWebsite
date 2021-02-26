@@ -11,7 +11,7 @@ install_requirements:
 # ----------------------------------
 
 streamlit:
-	-@streamlit run app.py --logger.level debug
+	-@streamlit run app.py
 
 heroku_login:
 	-@heroku login
